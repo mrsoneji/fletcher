@@ -24,7 +24,7 @@ returns a `Number` representing the 16-bit checksum
 ```js
 var fletcher16 = require('fletcher');
 var data = Buffer([1,2,3,4]);
-var matches = fletcher(data) === 5130; // true
+var matches = fletcher16(data) === 5130; // true
 ```
 
 ## License
